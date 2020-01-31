@@ -15,5 +15,5 @@ public class Tema2 {
 //ca urmare variabila "c" = 4*5=20
 //inteleg ca valoarea variabilei ramane cea initiala daca ulterior se afla inaintea parantezei in care se redefineste valoarea variabilei, ca in cazul variabilei "b", parte din calculatia lui "c"
 //deci este important unde anume plasam redefinirea valorii variabilei in ecuatie
-	
+
 }
