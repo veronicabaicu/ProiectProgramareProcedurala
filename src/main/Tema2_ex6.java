@@ -8,9 +8,8 @@ public class Tema2_ex6 {
 		else min = b;
 		if (c<min) min = c;
 		else min = b;
-		System.out.println(min);
+		System.out.println("Cel mai mic numar este:" + min);
 		
-//rezultatul afisat este 2
 //pentru a afla si afisa minimul dintre 3 numere, comparam pe rand 2 numere, apoi minimul lor cu cel de-al treilea
 		
 	}
