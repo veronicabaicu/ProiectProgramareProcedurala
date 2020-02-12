@@ -2,7 +2,7 @@ package main;
 
 public class Tema2_ex8 {
 	public static void main(String[]args){
-		int day=5;
+		int day=0;
 		switch(day) {
 			case 1:
 				System.out.println("Monday");
