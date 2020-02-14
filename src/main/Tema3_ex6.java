@@ -10,7 +10,7 @@ public class Tema3_ex6 {
         for(int i = 0; i<vector.length; i++) 
          { 
          	vector_nou[i] = vector[i] + d; 
-           System.out.print(+ vector_nou[i] + ","); 
+           System.out.print(vector_nou[i] + ","); 
          }
 	}
 
