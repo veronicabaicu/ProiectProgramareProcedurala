@@ -23,7 +23,7 @@ public Animal(String Mamifer, String Culoare, int Varsta){
 	this.Varsta = Varsta;
 }
 
-	public String getAnimal()
+	public String getMamifer()
 	{
 		return Mamifer;
 	}	
