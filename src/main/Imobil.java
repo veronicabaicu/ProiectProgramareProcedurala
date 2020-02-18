@@ -2,22 +2,22 @@ package main;
 
 public class Imobil {
 	private String Cladire;
-	private String Niveluri;
+	private int Niveluri;
 	private double Pret;
 	
 public Imobil() {
 	Cladire ="";
-	Niveluri = "";
+	Niveluri = 0;
 	Pret = 0;
 }
 
-public Imobil(String Niveluri){
-	this.Cladire = Cladire;
-	this.Niveluri = "";
+public Imobil(int Niveluri){
+	this.Cladire = "";
+	this.Niveluri = Niveluri;
 	this.Pret = 0;
 }
 
-public Imobil(String Cladire, String Niveluri, double Pret){
+public Imobil(String Cladire, int Niveluri, double Pret){
 	this.Cladire = Cladire;
 	this.Niveluri = Niveluri;
 	this.Pret = Pret;
@@ -31,10 +31,10 @@ public void setCladire(String Cladire)
 {
 	this.Cladire = Cladire;
 }
-public String getNiveluri() {
+public int getNiveluri() {
 	return Niveluri;
 }
-public void setNiveluri(String Niveluri) {
+public void setNiveluri(int Niveluri) {
 	this.Niveluri = Niveluri;
 }
 public double getPret() {
