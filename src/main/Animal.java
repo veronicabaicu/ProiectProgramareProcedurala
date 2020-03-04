@@ -1,47 +1,47 @@
 package main;
 
 public class Animal {
-	private String Mamifer;
-	private String Culoare;
-	private int Varsta;
+	private String mamifer;
+	private String culoare;
+	private int varsta;
 	
 public Animal() {
-	Mamifer ="";
-	Culoare = "";
-	Varsta = 0;
+	mamifer ="";
+	culoare = "";
+	varsta = 0;
 }
 	
-public Animal(String Culoare){
-	this.Mamifer = Mamifer;
-	this.Culoare = "";
-	this.Varsta = 0;
+public Animal(String culoare){
+	this.mamifer = mamifer;
+	this.culoare = "";
+	this.varsta = 0;
 }
 
-public Animal(String Mamifer, String Culoare, int Varsta){
-	this.Mamifer = Mamifer;
-	this.Culoare = Culoare;
-	this.Varsta = Varsta;
+public Animal(String mamifer, String culoare, int varsta){
+	this.mamifer = mamifer;
+	this.culoare = culoare;
+	this.varsta = varsta;
 }
 
 	public String getMamifer()
 	{
-		return Mamifer;
+		return mamifer;
 	}	
-	public void setMamifer(String Mamifer)
+	public void setMamifer(String mamifer)
 	{
-		this.Mamifer = Mamifer;
+		this.mamifer = mamifer;
 	}
 	public String getCuloare() {
-		return Culoare;
+		return culoare;
 	}
-	public void setCuloare(String Culoare) {
-		this.Culoare = Culoare;
+	public void setCuloare(String culoare) {
+		this.culoare = culoare;
 	}
 	public int getVarsta() {
-		return Varsta;
+		return varsta;
 	}
-	public void setVarsta(int Varsta) {
-		this.Varsta = Varsta;
+	public void setVarsta(int varsta) {
+		this.varsta = varsta;
 	}
 	
 }

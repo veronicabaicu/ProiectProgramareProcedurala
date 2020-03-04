@@ -1,46 +1,46 @@
 package main;
 
 public class Imobil {
-	private String Cladire;
-	private int Niveluri;
-	private double Pret;
+	private String cladire;
+	private int niveluri;
+	private double pret;
 	
 public Imobil() {
-	Cladire ="";
-	Niveluri = 0;
-	Pret = 0;
+	cladire ="";
+	niveluri = 0;
+	pret = 0;
 }
 
 public Imobil(int Niveluri){
-	this.Cladire = "";
-	this.Niveluri = Niveluri;
-	this.Pret = 0;
+	this.cladire = "";
+	this.niveluri = niveluri;
+	this.pret = 0;
 }
 
-public Imobil(String Cladire, int Niveluri, double Pret){
-	this.Cladire = Cladire;
-	this.Niveluri = Niveluri;
-	this.Pret = Pret;
+public Imobil(String cladire, int niveluri, double pret){
+	this.cladire = cladire;
+	this.niveluri = niveluri;
+	this.pret = pret;
 }
 
 public String getCladire()
 {
-	return Cladire;
+	return cladire;
 }	
-public void setCladire(String Cladire)
+public void setCladire(String cladire)
 {
-	this.Cladire = Cladire;
+	this.cladire = cladire;
 }
 public int getNiveluri() {
-	return Niveluri;
+	return niveluri;
 }
-public void setNiveluri(int Niveluri) {
-	this.Niveluri = Niveluri;
+public void setNiveluri(int niveluri) {
+	this.niveluri = niveluri;
 }
 public double getPret() {
-	return Pret;
+	return pret;
 }
-public void setPret(double Pret) {
-	this.Pret = Pret;
+public void setPret(double pret) {
+	this.pret = pret;
 }
 }
