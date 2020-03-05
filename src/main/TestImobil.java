@@ -28,6 +28,6 @@ public class TestImobil {
 		
 		System.out.println("Cladire: " + imob2.getCladire() + "\nCuloare: " + imob2.getNiveluri() + "\nVarsta: " + imob2.getPret());
 		System.out.println();
-		
+
 	}
 }
