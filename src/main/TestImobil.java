@@ -37,5 +37,12 @@ public class TestImobil {
 		
 		System.out.println(locuinta1.afiseazaDetalii());
 	
+		CasaDeVacanta locuinta2 = new CasaDeVacanta();
+		locuinta2.setCladire("penthouse");
+		locuinta2.setNiveluri(2);
+		locuinta2.setPret(1000000.00);
+		
+		System.out.println(locuinta2.afiseazaDetalii());
+		
 	}
 }
