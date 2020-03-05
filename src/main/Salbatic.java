@@ -17,8 +17,9 @@ public class Salbatic extends Animal {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public String afiseazaDetalii() { 
-		return "Animalul salbatic "+ getMamifer()+ " are culoarea "+ getCuloare()+ " si varsta de "+ getVarsta()+" ani"; 
-		} 
+	public String afiseazaDetalii() {  
+		return "Animalul salbatic "+ getMamifer()+ " are culoarea "+ getCuloare()+ " si varsta de "+ getVarsta()+" ani";  
+ 		}  
+
 
 }
