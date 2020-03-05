@@ -44,4 +44,8 @@ public Animal(String mamifer, String culoare, int varsta){
 		this.varsta = varsta;
 	}
 	
+	public String afiseazaDetalii() { 
+		return "Mamifer "+ mamifer + " are culoarea "+ culoare+ " si varsta "+ varsta; 
+		} 
+	
 }

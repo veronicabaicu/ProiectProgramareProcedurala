@@ -29,6 +29,20 @@ public class TestAnimal {
 		System.out.println("Mamifer: " + anim2.getMamifer() + "\nCuloare: " + anim2.getCuloare() + "\nVarsta: " + anim2.getVarsta());
 		System.out.println();
 		
+		
+		Domestic mamifer1 = new Domestic();
+		mamifer1.setMamifer("pisica");
+		mamifer1.setCuloare("alba");
+		mamifer1.setVarsta(3);
+		
+		System.out.println(mamifer1.afiseazaDetalii());
+	
+		Salbatic mamifer2 = new Salbatic();
+		mamifer2.setMamifer("elefant");
+		mamifer2.setCuloare("gri");
+		mamifer2.setVarsta(20);
+		
+		System.out.println(mamifer2.afiseazaDetalii());
 	}
 
 }
