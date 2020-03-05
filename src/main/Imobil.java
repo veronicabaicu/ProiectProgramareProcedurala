@@ -11,7 +11,7 @@ public Imobil() {
 	pret = 0;
 }
 
-public Imobil(int Niveluri){
+public Imobil(int niveluri){
 	this.cladire = "";
 	this.niveluri = niveluri;
 	this.pret = 0;
@@ -43,4 +43,8 @@ public double getPret() {
 public void setPret(double pret) {
 	this.pret = pret;
 }
+
+public String afiseazaDetalii() { 
+	return "Cladire "+ cladire + " are un numar de niveluri egal cu "+ niveluri+ " si pret de "+ pret; 
+	} 
 }

@@ -29,5 +29,13 @@ public class TestImobil {
 		System.out.println("Cladire: " + imob2.getCladire() + "\nCuloare: " + imob2.getNiveluri() + "\nVarsta: " + imob2.getPret());
 		System.out.println();
 
+		
+		Apartament locuinta1 = new Apartament();
+		locuinta1.setCladire("garsoniera");
+		locuinta1.setNiveluri(1);
+		locuinta1.setPret(50000.00);
+		
+		System.out.println(locuinta1.afiseazaDetalii());
+	
 	}
 }
